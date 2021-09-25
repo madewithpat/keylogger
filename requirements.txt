@@ -1,1 +1,3 @@
 keyboard
+pytest
+pytest-watch
