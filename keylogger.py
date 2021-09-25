@@ -14,10 +14,10 @@ class KeyPress:
         self.code = code
 
     def __repr__(self):
-        return f'{self.type}\t{self.code}\t{self.ts}'
+        return f'{self.type}\t{self.name}\t{self.code}\t{self.ts}'
     
     def __str__(self):
-        return f'{self.type}\t{self.code}\t{self.ts}'
+        return f'{self.type}\t{self.name}\t{self.code}\t{self.ts}'
 
     def __eq__(self, other):
         return (
@@ -31,8 +31,7 @@ class Sink:
 
 class ConsoleSink(Sink):
     def write(self, kp):
-        msg = kp.to_string()
-        print(msg)
+        print(kp)
 
 
 class KeyLogger:
