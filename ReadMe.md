@@ -2,6 +2,9 @@
 
 I wrote a small keylogger to assist in designing keymaps for my keyboards.
 
+## **DISCLAIMER**
+This is a personal project, which I run on my own computer, to gather information about how I use my keyboard. I am not responsible for your usage of this code. Use at your own risk.
+
 ## Goals
 
 1. All data stays local
